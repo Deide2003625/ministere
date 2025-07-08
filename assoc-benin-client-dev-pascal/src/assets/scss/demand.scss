@@ -1,0 +1,482 @@
+@import './navbar.scss';
+
+.demand{
+
+  margin: 50px;
+  .demand-container{
+
+    .type-demande{
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .information{
+    width: 50%;
+    margin: 50px auto;
+    padding: 60px 100px;
+    border: 1px solid $resourceBlockColor;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+
+    .evolution{
+       
+       padding: 10px;
+       border-radius: 10px;
+       box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.61);
+
+    }
+
+    .btn-validator{
+        width: 124px;
+        height: 36px;
+        margin-right: 20px;
+        background: $resourceBlockColor;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+  }
+}
+
+
+@media screen and (max-width:1452px) {
+
+  .demand{
+
+    margin: 50px 2px;
+    .demand-container{
+  
+      .type-demande{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 60px 100px ;
+      border: 1px solid $resourceBlockColor;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+  
+      .evolution{
+         
+         padding: 10px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.61);
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+
+}
+
+@media screen and (max-width: 959px) {
+
+  .demand{
+
+    margin: 50px 2px;
+    .demand-container{
+  
+      .type-demande{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 75%;
+      margin: 50px auto;
+      padding: 60px 100px ;
+      border: 1px solid $resourceBlockColor;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+  
+      .evolution{
+         
+         padding: 10px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.61);
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .demand{
+
+    margin: 50px 2px;
+    .demand-container{
+  
+      .type-demande{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 60px 100px ;
+      border: 1px solid $resourceBlockColor;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+  
+      .evolution{
+         
+         padding: 10px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.61);
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+@media screen and (max-width: 772px) {
+
+  .demand{
+
+    margin: 50px 10px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 60px 100px ;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+         width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .demand{
+
+    margin: 50px 10px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 60px 100px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+         
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .demand{
+
+    margin: 50px 60px 0 30px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 60px 100px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width:608px){
+  .demand{
+
+    margin: 50px 60px 0 30px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 70%;
+      margin: 50px auto;
+      padding: 5px 90px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+        display: none;
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+@media screen and (max-width:489px){
+  .demand{
+
+    margin: 50px 60px 0 30px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 60%;
+      margin: 50px auto;
+      padding: 5px 90px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+        display: none;
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+@media screen and (max-width:412px){
+  .demand{
+
+    margin: 50px 60px 0 30px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color:#999;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 60%;
+      margin: 50px auto;
+      padding: 5px 73px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+        display: none;
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}
+@media screen and (max-width: 383px){
+   
+  .demand{
+
+    margin: 50px 60px 0 30px;
+    
+    .demand-container{
+  
+      .type-demande{
+        font-size: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color:#999;
+        font-weight: bold;
+      }
+    }
+  
+    .information{
+      width: 60%;
+      margin: 50px auto;
+      padding: 5px 73px;
+      border: none;
+      box-shadow: none;
+  
+      .evolution{
+        display: none;
+        width: 100%;
+        border-style : none;
+        box-shadow: none;
+  
+      }
+  
+      .btn-validator{
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,1102 @@
+@import "./navbar.scss";
+
+.register {
+  display: flex;
+  justify-content: center;
+
+  form {
+    .style-input {
+      display: flex;
+      justify-content: space-between;
+      .validation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .input-type {
+          padding: 5px;
+          width: 400px;
+          height: 2px;
+          margin: 24px 15px;
+          font-size: 10px;
+        }
+        .input-type-date {
+          width: 400px;
+          margin: 25px 15px;
+          padding: 5px;
+        }
+        /*  .input-type-departement {
+          padding: 5px;
+          width: 400px;
+          margin: 35px 15px -25px 15px;
+          font-size: 10px;
+        } */
+        p {
+          font-size: 12px;
+          margin: 10px 25px;
+          color: red;
+        }
+      }
+    }
+    .goal {
+      margin: 30px 20px;
+
+      .goal-input {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+      }
+    }
+
+    .btn {
+      margin-top: 150px;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      button {
+        width: 124px;
+        height: 36px;
+        margin-right: 20px;
+        background: $resourceBlockColor;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .localisation {
+      margin: 25px 20px;
+
+      .departement-commune {
+        display: flex;
+        gap: 35px;
+        .department {
+          width: 400px;
+        }
+      }
+    }
+
+    .objectif {
+      padding: 5px;
+      width: auto;
+      height: 40px;
+      margin: 50px 15px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: flex;
+        justify-content: space-between;
+
+        .validation {
+          display: flex;
+          flex-direction: column;
+
+          .input-type {
+            padding: 5px;
+            width: 380px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 380px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+      .localisation {
+        margin: 25px 25px;
+
+        .departement-commune {
+          display: flex;
+          gap: 45px;
+          .department {
+            width: 400px;
+          }
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: flex;
+        justify-content: space-between;
+
+        .validation {
+          display: flex;
+          flex-direction: column;
+
+          .input-type {
+            padding: 5px;
+            width: 360px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 360px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 828px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: flex;
+        justify-content: space-between;
+
+        .validation {
+          display: flex;
+          flex-direction: column;
+
+          .input-type {
+            padding: 5px;
+            width: 340px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 340px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: flex;
+        justify-content: space-between;
+
+        .validation {
+          display: flex;
+          flex-direction: column;
+
+          .input-type {
+            padding: 5px;
+            width: 300px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 300px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 500px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 500px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .localisation {
+        margin: 25px 20px;
+
+        .departement-commune {
+          display: flex;
+          flex-direction: column;
+          gap: 35px;
+          .department {
+            width: 400px;
+          }
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 681px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 500px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 500px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 620px) {
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 500px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 500px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .title-form {
+    /*  display: block; */
+    text-align: center;
+    color: #999;
+    width: 100%;
+    /*  padding: 55px 0 40px */
+    padding: 8px;
+
+    span {
+      width: 300px;
+      height: 300px;
+      background: $resourceBlockColor;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: inline;
+      font-weight: bold;
+    }
+    .step-name {
+      margin-top: 25px;
+    }
+  }
+  .code{
+    h1{
+      font-size: 18px;
+    }
+  }
+
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 450px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 450px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and(max-width:585px) {
+  .code{
+    h1{
+      font-size: 14px;
+    }
+  }
+  
+}
+
+
+@media screen and (max-width: 522px) {
+  .title-form {
+    text-align: center;
+    color: #999;
+    width: 100%;
+    /*  padding: 55px 0 40px */
+    padding: 10px;
+
+    span {
+      width: 300px;
+      height: 300px;
+      background: $resourceBlockColor;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: inline;
+      font-weight: bold;
+    }
+    .step-name {
+      margin-top: 25px;
+    }
+  }
+
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 400px;
+            height: 2px;
+            margin: 25px 15px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 400px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .title-form {
+    text-align: center;
+    color: #999;
+    width: 100%;
+    padding: 10px;
+
+    span {
+      width: 300px;
+      height: 300px;
+      background: $resourceBlockColor;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: inline;
+      font-weight: bold;
+    }
+    .step-name {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+  }
+
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 350px;
+            height: 2px;
+            margin: 25px 10px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 350px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 412px) {
+  .title-form {
+    text-align: center;
+    color: #999;
+    width: 100%;
+    padding: 10px;
+
+    span {
+      width: 300px;
+      height: 300px;
+      background: $resourceBlockColor;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: inline;
+      font-weight: bold;
+    }
+    .step-name {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+  }
+
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 320px;
+            height: 2px;
+            margin: 25px 10px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 320px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 383px) {
+  .title-form {
+    text-align: center;
+    color: #999;
+    width: 100%;
+    padding: 10px;
+
+    span {
+      width: 300px;
+      height: 300px;
+      background: $resourceBlockColor;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: inline;
+      font-weight: bold;
+    }
+    .step-name {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+  }
+
+  .register {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .style-input {
+        display: block;
+        /* justify-content: space-between; */
+        .validation {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 6px;
+
+          .input-type {
+            padding: 5px;
+            width: 300px;
+            height: 2px;
+            margin: 25px 10px;
+            font-size: 10px;
+          }
+          .input-type-departement {
+            padding: 5px;
+            width: 300px;
+            margin: 25px 15px 0 15px;
+            font-size: 10px;
+          }
+          p {
+            font-size: 12px;
+            margin: 10px 25px;
+            color: red;
+          }
+        }
+      }
+      .goal {
+        margin: 30px 20px;
+
+        .goal-input {
+          width: 100%;
+          height: 40px;
+          font-size: 20px;
+        }
+      }
+
+      .btn {
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        button {
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      .objectif {
+        padding: 5px;
+        width: auto;
+        height: 40px;
+        margin: 50px 15px;
+        font-size: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import './navbar.scss';
+
+.verification{
+  margin: 60px -54px ;
+  p{
+    padding: 10px;
+    
+  }
+
+  strong{
+   
+  }
+
+  .btn{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    button{
+
+        width: 124px;
+        height: 36px;
+        margin-right: 20px;
+        background: $resourceBlockColor;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 563px){
+
+  .verification{
+    margin: 60px -88px ;
+    p{
+      padding: 10px;
+      
+    }
+  
+    strong{
+     
+    }
+  
+    .btn{
+      margin-top: 150px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  
+      button{
+  
+          width: 124px;
+          height: 36px;
+          margin-right: 20px;
+          background: $resourceBlockColor;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,59 @@
+@import './navbar.scss';
+
+.confirmationCode{
+ 
+  .end-registration{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    .validation-text{
+      width: 500px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .block{
+        display: grid;
+                           
+       .block-icon{
+           justify-self: center;
+           font-size: 25px;
+           display: grid;
+           place-items: center;
+           padding: 10px;
+           border-radius: 25px;
+           position: relative;
+           top: 25px;
+           background-color: $resourceBlockColor;
+           color: white;
+           
+       }
+
+       .block-text{
+           box-shadow: 0 0 14px 0 rgba(1, 1, 1, 0.2);
+           padding: 10px 0px;
+           padding-top: 35px;
+           border: 20px;
+           border-radius: 20px;
+           width: 500px;
+
+           .block-link{
+               text-align: center;
+              font-size: 16px;
+              font-weight: bold;
+               
+           }
+
+           p{
+              text-align: center;
+               font-size: 17px;
+               padding-top: 15px;
+           }
+       }
+
+   }
+    }
+  }
+
+}
