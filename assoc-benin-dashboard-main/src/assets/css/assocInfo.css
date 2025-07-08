@@ -1,0 +1,14 @@
+.doc-file{
+    width: auto;
+    padding: 10px 7px;
+    background-color: rgba(0, 171, 85, 0.08);
+    color: #00AB55;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.docs-container{
+    display: grid;
+    gap: 10px;
+}
