@@ -1,0 +1,85 @@
+http://127.0.0.1:8000/api/sign_up
+{
+    "registration_number" : "105649197485",
+    "firstname" : "Firstname",
+    "surname" : "Surname",
+    "telephone" : "74859632",
+    "email" : "mikeahoudjinou@gmail.com",
+    "password" : "password",
+    "role" : "admin",
+    "department" : "tous",
+    "status" : "actif"
+}
+
+http://127.0.0.1:8000/api/login
+{
+    "email" : "godwinhouenou@gmail.com",
+    "password" : "password"
+}
+
+http://127.0.0.1:8000/api/freeze/{registration_number}/{status}
+
+http://127.0.0.1:8000/api/update_admin_data
+{
+    "registration_number" : "105649197485",
+    "email" : "godwinhouenou@gmail.com",
+    "last_password" : "password",
+    "new_password1" : "newpassword",
+    "new_password2" : "newpassword"
+}
+
+http://127.0.0.1:8000/api/make_request
+{
+    "legal_status" : "Foundation",
+    "denomination" : "GodLeads",
+    "acronym" : "GL",
+    "ag_date" : "2022-10-10",
+    "department" : "department",
+    "town" : "town",
+    "district" : "district",
+    "quarter" : "quarter",
+    "lot_number" : "lot_number",
+    "building" : "building",
+    "po_box" : "BP something",
+    "a_telephone" : "45126398",
+    "a_email" : "godwinhouenou@gmail.com",
+    "first_person_in_charge" : "God",
+    "first_person_in_charge_email" : "godwinhouenou@gmail.com",
+    "goals" : "Win",
+    "request_status" : "en cours de traitement",
+    "request_code" : "105263967485",
+    "model_respect" : "oui"
+    "presence_list_insertion" : "oui"
+    "criminal_records_validity" : "oui"
+    "presidium_members_verification" : "oui"
+    "association_status" : "inactive"
+    "regional_coverage" : "atlantique"
+    "verbal_trial" : "fichier"
+    "ag_members" : "fichier"
+    "rules_of_procedure" : "fichier"
+    "payment_receipt" : "fichier"
+    "recording_letter" : "fichier"
+    "statute" : "fichier"
+    "admin_receipt" : "fichier"
+}
+
+http://127.0.0.1:8000/api/admin_observation
+{
+    "reference_to_misp" : "2022-11-20MISP",
+    "reference_to_daic" : "2022-11-20DAIC",
+    "arrival_to_misp" : "2022-11-20 21:34:25",
+    "arrival_to_daic" : "2022-11-20 21:34:25",
+    "observations" : "Cool",
+    "request_status" : "approved",
+    "request_code" : "105263967485",
+    "admin_registration_number" : "10564920",
+    "email" : "mikeahoudjinou@gmail.com",
+    "first_person_in_charge_email" : "ahouandjinoubill@gmail.com"
+}
+
+http://127.0.0.1:8000/api/mail_code
+{
+    "email" : "mikeahoudjinou@gmail.com",
+    "first_person_in_charge_email" : "ahouandjinoubill@gmail.com",
+    "request_code" : "105263967485"
+}
